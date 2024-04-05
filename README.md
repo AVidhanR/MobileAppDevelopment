@@ -1,2 +1,3 @@
-# MobileApplicationDevelopment
-This repo contains the programs on mobile application development from week-10 that I built during my college days.
+### Mobile Application Development (MAD)
+- Languages used in MAD are `Java` and `XML`
+- The code for every week is given in individual folder with name convention `MAD_WEEK_0`

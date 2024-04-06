@@ -323,5 +323,5 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-- That's it now save the both files and run app!
-<font color="red">Note :</font> make sure to check the package name in java file `package com.example.registrationform;` if you got another name than `registrationform` make sure to replace the first line of the code with yours.
+- That's it now save the both files and run app! \
+<font color="red">Note :</font> make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.

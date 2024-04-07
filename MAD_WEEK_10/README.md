@@ -1,6 +1,6 @@
 ### Registration form
 
-- Create a new project in **Android Studio** named <font color="red">Registration Form</font> (name should me absolute because in `MainActivity.java` the imported package name is **registrationform**)
+- Create a new project in **Android Studio** named <span style="color: red;">Registration Form</span> (name should me absolute because in `MainActivity.java` the imported package name is **registrationform**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -318,10 +318,9 @@ public class MainActivity extends AppCompatActivity {
                 output.setText(info); // Display user information
             }
         });
-
         // By AVidhanR
     }
 }
 ```
 - That's it now save the both files and run app! \
-<font color="red">Note :</font> make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.
+<span style="color: red;">Note :</span> make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.

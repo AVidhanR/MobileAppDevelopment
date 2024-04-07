@@ -223,4 +223,4 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 That's it now save the both files and run app!
-> Note: make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.
+> Note: make sure to check the package name in java file `package com.example.meetingschedule;` if you got another name other than `meetingschedule` make sure to replace the first line of the code with yours.

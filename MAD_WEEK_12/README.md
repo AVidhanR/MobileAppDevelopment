@@ -1,6 +1,6 @@
-### Registration form
+# Notification Concept
 
-- Create a new project in **Android Studio** named <font color="red">Notification Concept</font> (name should me absolute because in `MainActivity.java` the imported package name is **notificationconcept**)
+- Create a new project in **Android Studio** named <span style="color: red;">Notification Concept</span> (name should me absolute because in `MainActivity.java` the imported package name is **notificationconcept**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 
 ```xml
@@ -161,5 +161,9 @@ public class MainActivity extends AppCompatActivity {
         // Notify the user with the notification.
         notificationManager.notify(0, myBuilder.build());
     }
+    // By AVidhanR
 }
 ```
+
+- That's it now save the both files and run app! \
+  <span style="color: red;">Note :</span> make sure to check the package name in java file `package com.example.notificationconcept;` if you got another name other than `notificationconcept` make sure to replace the first line of the code with yours.

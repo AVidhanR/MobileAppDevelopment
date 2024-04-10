@@ -1,7 +1,8 @@
 ### Registration form
 
-- Create a new project in **Android Studio** named <span style="color: red;">Registration Form</span> (name should me absolute because in `MainActivity.java` the imported package name is **registrationform**)
+- Create a new project in **Android Studio** named **Registration Form** (name should me absolute because in `MainActivity.java` the imported package name is **registrationform**)
 - Add the below `XML` code in `activity_main.xml` of your project.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- The root layout for the activity, using ConstraintLayout to manage UI components -->
@@ -223,7 +224,9 @@
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 - Now add the below `Java` code in `MainActivity.java` of your project.
+
 ```java
 // WEEK_10 (Java Functionality Code)
 
@@ -250,20 +253,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         // Enable edge-to-edge display
         EdgeToEdge.enable(this);
-        
+
         // Set the layout for the activity
         setContentView(R.layout.activity_main);
-        
+
         // Apply window insets to adjust padding for system bars
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        
+
         // Initialize the Spinner for countries
         Spinner spin = findViewById(R.id.countries);
 
@@ -289,10 +292,10 @@ public class MainActivity extends AppCompatActivity {
         EditText address = findViewById(R.id.address);
         EditText age = findViewById(R.id.age);
         DatePicker dp = findViewById(R.id.datePicker);
-        
+
         // Initialize TextView for output
         TextView output = findViewById(R.id.output);
-        
+
         // Initialize Button for DatePicker visibility control
         Button buttonDatePicker = findViewById(R.id.dateButton);
         dp.setVisibility(View.GONE); // Hide DatePicker initially
@@ -322,5 +325,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-That's it now save the both files and run app! 
+
+That's it now save the both files and run app!
+
 > Note: make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.

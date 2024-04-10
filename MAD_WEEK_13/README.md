@@ -1,65 +1,30 @@
 # Notification Concept
 
-- Create a new project in **Android Studio** named <span style="color: red;">Notification Concept</span> (name should me absolute because in `MainActivity.java` the imported package name is **notificationconcept**)
+- Create a new project in **Android Studio** named **Colors Menu** (name should me absolute because in `MainActivity.java` the imported package name is **colorsmenu**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- ConstraintLayout to organize views with constraints -->
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<!-- RelativeLayout to organize views -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- ScrollView to allow scrolling if the content exceeds the screen size -->
-    <ScrollView
+    <!-- Toolbar for displaying menu options -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="60dp"
+        app:title="Colors Menu"
+        android:background="@color/black"
+        app:titleTextColor="@color/white" />
 
-        <!-- LinearLayout to arrange child views vertically -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="vertical"
-            android:layout_margin="10dp">
-
-            <!-- TextView to display the title of the activity -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Notification Concept"
-                android:textSize="30dp"
-                android:textAlignment="center"
-                android:padding="10dp"
-                android:background="@color/black"
-                android:textColor="@color/white" />
-
-            <!-- TextView providing instructions to the user -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Click the below button to demonstrate the notification concept."
-                android:textSize="25dp"
-                android:padding="10dp"
-                android:textAlignment="center" />
-
-            <!-- Button to trigger the notification demonstration -->
-            <Button
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:text="Start"
-                android:textSize="20dp"
-                android:layout_marginTop="15dp"
-                android:id="@+id/start" />
-
-        </LinearLayout>
-    </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
 ```
 
 - Now add the below `Java` code in `MainActivity.java` of your project.

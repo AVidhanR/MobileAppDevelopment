@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- In order to create a menu we use <menu></menu tag -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Red color option -->
+    <item
+        android:id="@+id/redItem"
+        android:title="Red" />
+
+    <!-- Green color option -->
+    <item
+        android:id="@+id/greenItem"
+        android:title="Green" />
+
+    <!-- Blue color option -->
+    <item
+        android:id="@+id/blueItem"
+        android:title="Blue" />
+
+    <!-- Black color option -->
+    <item
+        android:id="@+id/blackItem"
+        android:title="Black" />
+
+    <!-- Reset color option -->
+    <item
+        android:id="@+id/whiteItem"
+        android:title="Reset" />
+</menu>

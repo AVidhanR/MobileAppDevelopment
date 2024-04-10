@@ -27,8 +27,8 @@
 </RelativeLayout>
 ```
 
-- Now, in order to add a menu context; create a new **Android resource file** named `menu` under `res` directory.
-- Create a new file named `main_menu.xml` in `menu` directory.
+- Now, in order to add a menu context; create a new **Android resource file** named `menu` under `res` directory (right click! -> new -> android res file).
+- Create a new file named `main_menu.xml` in `menu` directory (right click! -> new -> layout res file).
 - Add the below `XML` code in `main_menu.xml` of your project.
 
 ```xml

@@ -1,4 +1,4 @@
-# Notification Concept
+# Colors Menu
 
 - Create a new project in **Android Studio** named **Colors Menu** (name should me absolute because in `MainActivity.java` the imported package name is **colorsmenu**)
 - Add the below `XML` code in `activity_main.xml` of your project.

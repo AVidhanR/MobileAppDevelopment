@@ -1,5 +1,6 @@
 ### Attend a Meeting
 
+> Develop an android application which asks the user pick a time and date to attend a meeting (Use Date and Time Picker) and display it back to user on clicking on submit button.
 - Create a new project in **Android Studio** named **Meeting Schedule** (name should me absolute because in `MainActivity.java` the imported package name is **meetingschedule**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 

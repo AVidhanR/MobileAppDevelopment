@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                output.setVisibility((View.VISIBLE));
+                output.setVisibility(View.VISIBLE);
                 String info = "Meeting time picked: " + timePicker.getHour() + ":" + timePicker.getMinute() +
                         "\nMeeting date picked: " + datePicker.getDayOfMonth() + "/" + (datePicker.getMonth() + 1) + "/" + datePicker.getYear();
                 output.setText(info);

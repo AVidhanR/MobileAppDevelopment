@@ -1,5 +1,6 @@
 # Login Module
 
+> Create sample application with login module. Validate username and password, on successful login, Change TextView "Login Successful". And on login fail, alert user using Toast "Login fail".
 - Create a new project in **Android Studio** named **Login Module** (name should me absolute because in `MainActivity.java` the imported package name is **loginmodule**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 

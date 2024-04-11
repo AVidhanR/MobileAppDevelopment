@@ -119,8 +119,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Objects;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -1,5 +1,6 @@
 # Colors Menu
 
+> Create an application that will change color of the screen, based on selected options from the menu.
 - Create a new project in **Android Studio** named **Colors Menu** (name should me absolute because in `MainActivity.java` the imported package name is **colorsmenu**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 

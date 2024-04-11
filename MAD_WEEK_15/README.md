@@ -1,5 +1,6 @@
 # Login With Disable
 
+> Create login application where you will have to validate username and password till the username and password is not validated, login button should remain disabled.
 - Create a new project in **Android Studio** named **Login With Disable** (name should me absolute because in `MainActivity.java` the imported package name is **loginwithdisable**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 

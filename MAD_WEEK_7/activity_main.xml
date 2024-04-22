@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- A LinearLayout to hold all the UI elements -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textAlignment="center"
+        android:text="Android Buttons"
+        android:textSize="25dp"
+        android:layout_margin="10dp"/>
+
+    <!-- A TextView to label the Button -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <!-- A standard Button -->
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Button"
+        android:textAlignment="center"
+        android:id="@+id/btn" />
+
+    <!-- A TextView to label the ImageButton -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Image Button"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <!-- An ImageButton with a default image -->
+    <ImageButton
+        android:layout_margin="10dp"
+        android:id="@+id/imgBtn"
+        android:contentDescription="Image Button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- A TextView to label the ToggleButton -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Toggle Button"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <!-- A ToggleButton -->
+    <ToggleButton
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Toggle"
+        android:textAlignment="center"
+        android:id="@+id/toggleBtn" />
+
+</LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

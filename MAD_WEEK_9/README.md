@@ -1,6 +1,6 @@
 # Custom Toast Alert
 
-> Question
+> Develop a program to implement Custom Toast Alert.
 
 - Create a new project in **Android Studio** named **Custom Toast** (name should me absolute because in `MainActivity.java` the imported package name is **customtoast**)
 - Add the below `XML` code in `activity_main.xml` of your project.

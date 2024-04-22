@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is the main layout file for the activity. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- This is a ScrollView that contains all the views. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <!-- This is a LinearLayout that contains all the child views. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- This is a TextView that displays the title "Android Views". -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Android Views"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:background="@color/black"/>
+
+            <!-- This is a TextView that displays the title "List View". -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:text="List View"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <!-- This is a ListView that displays a list of items. -->
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="750dp" />
+
+            <!-- This is a TextView that displays the title "Grid View". -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:text="Grid View"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <!-- This is a GridView that displays a grid of items. -->
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:numColumns="3"
+                android:layout_below="@id/listView" />
+
+            <!-- This is a TextView that displays the title "Image View". -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:text="Image View"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <!-- This is an ImageView that displays an image. -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_below="@id/gridView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

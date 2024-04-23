@@ -1,5 +1,7 @@
 ### Registration form
+
 > Develop an application which prompts a registration form with the fields User Name, Password, Address, Gender (radio buttons for male and female), Age (numeric), Date of Birth (Date Picker), State (Spinner) and a Submit button. On clicking the submit button, print all the data below the Submit Button. This application must contain UI controls like TextView, EditText, Radio Button, etc
+
 - Create a new project in **Android Studio** named **Registration Form** (name should me absolute because in `MainActivity.java` the imported package name is **registrationform**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 
@@ -326,6 +328,6 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-That's it now save the both files and run app!
+That's it now save the both files and run the app!
 
 > Note: make sure to check the package name in java file `package com.example.registrationform;` if you got another name other than `registrationform` make sure to replace the first line of the code with yours.

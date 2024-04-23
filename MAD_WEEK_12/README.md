@@ -1,6 +1,7 @@
 # Notification Concept
 
 > Implement the notification concept in Android.
+
 - Create a new project in **Android Studio** named <span style="color: red;">Notification Concept</span> (name should me absolute because in `MainActivity.java` the imported package name is **notificationconcept**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 
@@ -166,6 +167,6 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-That's it now save the both files and run app!
+That's it now save the both files and run the app!
 
 > **Note** :make sure to check the package name in java file `package com.example.notificationconcept;` if you got another name other than `notificationconcept` make sure to replace the first line of the code with yours.

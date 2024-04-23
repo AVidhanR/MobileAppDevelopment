@@ -13,7 +13,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
     <!-- ScrollView to enable scrolling if the content exceeds the screen size -->
     <ScrollView

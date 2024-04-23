@@ -2,7 +2,7 @@
 
 > Design an Android application program that demonstrates the following: Table Layout and Grid Layout
 
-- Create a new project in **Android Studio** named **`TableAndGridLayout`** (name should me absolute because in `MainActivity.java` the imported package name is **tableandgridlayout**)
+- Create a new project in **Android Studio** named **`Table And Grid Layout`** (name should me absolute because in `MainActivity.java` the imported package name is **tableandgridlayout**)
 - Add the below `XML` code in `activity_main.xml` of your project.
 
 ```xml

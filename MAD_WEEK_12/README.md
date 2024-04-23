@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         myBuilder.setContentTitle("Notification Title 🔔")
                 .setContentText("Notification content goes here 💬")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-                .setSmallIcon(R.drawable.notification)
+                .setSmallIcon(R.drawable.ic_launcher_foreground)
                 .setAutoCancel(true);
 
         /**

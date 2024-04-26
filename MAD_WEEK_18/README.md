@@ -286,7 +286,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase DB) {
         DB.execSQL(
                 "Create table RegistrationDetails (username varchar(50) primary key, address varchar(50), gender varchar(50), dob date, age int, state varchar(50));"
-    );
+        );
     }
 
     // Method to drop the table and create a new one with updated schema if the database version is upgraded

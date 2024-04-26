@@ -185,7 +185,7 @@
             <TextView
                 android:id="@+id/output"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:textAlignment="textStart"
                 android:layout_margin="30dp"
                 android:padding="10dp"

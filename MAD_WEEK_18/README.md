@@ -1,4 +1,4 @@
-# Login With Disable
+# Database implementation in Android
 
 > Question WEEK_18
 
@@ -38,6 +38,7 @@
                 android:layout_margin="10dp"
                 android:textSize="30dp" />
 
+
                 <!-- EditText for user input -->
                 <EditText
                     android:id="@+id/userName"
@@ -48,6 +49,7 @@
                     android:layout_margin="10dp"
                     android:hint="Enter Username" />
 
+
                 <EditText
                     android:id="@+id/pwd"
                     android:layout_width="300dp"
@@ -57,6 +59,7 @@
                     android:hint="Enter Password"
                     android:layout_margin="10dp"
                     android:inputType="textPassword" />
+
 
                 <EditText
                     android:id="@+id/confirm"
@@ -76,8 +79,11 @@
                     android:hint="Enter address here" />
             <!-- LinearLayout to arrange Gender TextView and RadioButtons horizontally -->
             <LinearLayout
-                android:layout_width="300dp"
+                android:layout_width="355dp"
                 android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
                 android:gravity="center_horizontal"
                 android:orientation="horizontal">
 
@@ -87,8 +93,11 @@
                     android:layout_margin="10dp"
                     android:text="Gender : "
                     android:textAlignment="center" />
+                    android:text="Gender : "
+                    android:textAlignment="center" />
                 <!-- LinearLayout to arrange RadioButtons for Male and Female -->
                 <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="20dp"
@@ -101,6 +110,7 @@
                         android:layout_height="48dp"
                         android:layout_marginHorizontal="10dp"
                         android:text="Male" />
+
 
                     <RadioButton
                         android:id="@+id/female"
@@ -140,6 +150,7 @@
                     android:layout_margin="10dp"
                     android:hint="Enter age here" />
 
+
             <!-- LinearLayout for State selection Spinner -->
             <LinearLayout
                 android:layout_width="300dp"
@@ -147,20 +158,28 @@
                 android:layout_margin="10dp"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal">
+                android:gravity="center_horizontal">
                 <TextView
                     android:layout_width="wrap_content"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
+                    android:text="Select State: "
                     android:text="Select State: "
                     android:textAlignment="center" />
                 <Spinner
                     android:id="@+id/countries"
                     android:layout_width="wrap_content"
+                    android:id="@+id/countries"
+                    android:layout_width="wrap_content"
                     android:layout_height="50dp"
+                    android:layout_marginStart="25dp" />
                     android:layout_marginStart="25dp" />
             </LinearLayout>
             <!-- Button to submit the form -->
             <Button
                 android:id="@+id/submit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="Submit" />
@@ -172,8 +191,20 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"/>
+            <Button
+                android:id="@+id/storeBtn"
+                android:text="Store"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"/>
 
                <!-- Button to retrieve the user data from db -->
+            <Button
+                android:id="@+id/retrieveBtn"
+                android:text="Retrieve"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"/>
             <Button
                 android:id="@+id/retrieveBtn"
                 android:text="Retrieve"
@@ -191,12 +222,13 @@
                 android:padding="10dp"
                 android:hint="Preview" />
 
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- Now add the below `Java` code in `DatabaseHelper.java` of your project.
+- Now add the below `Java` code in `DatabaseHelper.java` (by creating a new Java file {`DatabaseHelper.java`} at the same location where `MainActivity.java` is present) of your project.
 
 ```java
 package com.example.registrationformwithdb;
@@ -226,7 +258,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase DB) {
         DB.execSQL(
-                "Create table RegistrationDetails (username varchar(50) primary key, address varchar(50), gender varchar(50), dob date, age int, state varchar(50));");
+                "Create table RegistrationDetails (username varchar(50) primary key, address varchar(50), gender varchar(50), dob date, age int, state varchar(50));"
+        );
     }
 
     // Method to drop the table and create a new one with updated schema if the database version is upgraded

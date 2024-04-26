@@ -186,4 +186,4 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the both files and run the app!
 
-> **Note** :make sure to check the package name in java file `package com.example.loginwithdisable;` if you got another name other than `loginwithdisable` make sure to replace the first line of the code with yours.
+> **Note**: make sure to check the package name in java file `package com.example.loginwithdisable;` if you got another name other than `loginwithdisable` make sure to replace the first line of the code with yours.

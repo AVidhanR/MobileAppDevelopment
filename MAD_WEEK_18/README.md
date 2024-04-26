@@ -255,7 +255,7 @@
 
 ```
 
-- Now add the below `Java` code in `DatabaseHelper.java` of your project.
+- Now add the below `Java` code in `DatabaseHelper.java` (by creating a new Java file {`DatabaseHelper.java`} at the same location where `MainActivity.java` is present) of your project.
 
 ```java
 package com.example.registrationformwithdb;

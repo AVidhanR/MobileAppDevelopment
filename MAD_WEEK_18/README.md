@@ -401,7 +401,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Set OnClickListener for the button to show DatePicker
-        buttonDatePicker.setOnClickListener(v -> {
+        buttonDatePicker.setOnClickListener(view -> {
             dp.setVisibility(View.VISIBLE); // Show DatePicker when button is pressed
         });
 

@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         public void afterTextChanged(Editable editable) {
 
             // Find the login button, username and password EditTexts
-            // Can't take them globally due various reasons
+            // Can't take them globally due to various reasons
             Button loginBtn = findViewById(R.id.login);
             EditText userName = findViewById(R.id.userName);
             EditText password = findViewById(R.id.password);

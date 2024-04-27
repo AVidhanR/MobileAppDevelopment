@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         userMessage = findViewById(R.id.message);
         Button sendButton = findViewById(R.id.sendBtn);
 
-        sendButton.setOnClickListener(v -> sendSMS());
+        sendButton.setOnClickListener(view -> sendSMS());
 
         // Check SMS permission
         if (

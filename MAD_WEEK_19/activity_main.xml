@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp" >
+
+    <!-- Title TextView for the Email Sender -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Email Sender"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <!-- EditText for entering the sender email address -->
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Enter the sender email address"
+        android:id="@+id/senderEmail"
+        android:layout_margin="10dp" />
+
+    <!-- EditText for entering the subject of the email -->
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Enter the subject of the email"
+        android:id="@+id/emailSubject"
+        android:layout_margin="10dp" />
+
+    <!-- EditText for entering the body of the email -->
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Enter the body of the email"
+        android:id="@+id/emailBody"
+        android:layout_margin="10dp" />
+
+    <!-- Button to send the email -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Send Email"
+        android:id="@+id/sendEmailBtn"
+        android:layout_margin="10dp" />
+
+<!--    Created by AVidhanR -->
+</LinearLayout>

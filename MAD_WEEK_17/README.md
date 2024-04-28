@@ -2,6 +2,9 @@
 
 > Design basic music player application to demonstrate services in android.
 
+- Create a new project in **Android Studio** named **Media Player** (name should me absolute because in `MainActivity.java` the imported package name is **mediaplayer**)
+- Add the below `XML` code in `activity_main.xml` of your project.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -52,6 +55,8 @@
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 ```
+
+- Now add the below `Java` code in `MainActivity.java` of your project.
 
 ```java
 package com.example.mediaplayer;
@@ -186,4 +191,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
 ```
+
+That's it now save the both files and run the app!
+
+> **Note** :make sure to check the package name in java file `package com.example.mediaplayer;` if you got another name other than `mediaplayer` make sure to replace the first line of the code with yours.
+
+---

@@ -266,7 +266,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return DB.rawQuery("select * from RegistrationDetails", null);
     }
 }
-
 ```
 
 - Now add the below `Java` code in `MainActivity.java` of your project.
@@ -417,7 +416,17 @@ public class MainActivity extends AppCompatActivity {
         // By AVidhanR
     }
 }
+```
 
+- Inorder to use `SQLiteDatabase` in your Android Project you must add the below `dependency` in `build.gradle.kts (:app)` and press **Sync now**.
+
+```bash
+dependencies {
+    implementation ("androidx.sqlite:sqlite:2.4.0")
+    // Remaining
+    // dependencies
+    // Don't change these...
+}
 ```
 
 That's it now save the above files and run the app!

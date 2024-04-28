@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText" >
+
+    <!-- Title TextView to display "GPS Location" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="GPS Location"
+        android:textAlignment="center"
+        android:layout_margin="10dp" />
+
+    <!-- TextView to display the GPS location output -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getGPSLocationView"
+        android:textSize="20dp"
+        android:hint="GPS Location Output"
+        android:layout_margin="10dp" />
+
+    <!-- Button to trigger the GPS location retrieval -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Get Location"
+        android:layout_margin="10dp"
+        android:id="@+id/getGPSLocationBtn" />
+
+    <!--    Created By AVidhanR-->
+
+</LinearLayout>

@@ -1,6 +1,6 @@
 # Get GPS Location Information
 
-> Develop an application to send and receive e-mail.
+> Develop a native application that uses GPS location information.
 
 - Create a new project in **Android Studio** named **GPS Location** (name should me absolute because in `MainActivity.java` the imported package name is **gpslocation**)
 - Add the below `XML` code in `activity_main.xml` of your project.

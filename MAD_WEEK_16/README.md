@@ -17,6 +17,7 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity" >
 
+    <!-- TextView to display the title "SMS Sender" -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +26,7 @@
         android:textAlignment="center"
         android:layout_margin="10dp" />
 
+    <!-- EditText for entering the phone number -->
     <EditText
         android:id="@+id/phoneNumber"
         android:inputType="number"
@@ -32,6 +34,7 @@
         android:layout_height="wrap_content"
         android:hint="Phone Number" />
 
+    <!-- EditText for entering the message -->
     <EditText
         android:id="@+id/message"
         android:inputType="text"
@@ -39,14 +42,16 @@
         android:layout_height="wrap_content"
         android:hint="Message" />
 
+    <!-- Button to send the SMS -->
     <Button
         android:id="@+id/sendBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Send SMS"
         android:layout_margin="10dp" />
-
+<!-- Created By AVidhanR -->
 </LinearLayout>
+
 ```
 
 - Now add the below `Java` code in `MainActivity.java` of your project.

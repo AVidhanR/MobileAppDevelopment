@@ -1,4 +1,4 @@
-# Send an Email
+# Get GPS Location Information
 
 > Develop an application to send and receive e-mail.
 
@@ -15,7 +15,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:layout_margin="20dp" >
+    android:layout_margin="20dp" >****
 
     <!-- Title TextView for the Email Sender -->
     <TextView
@@ -123,3 +123,5 @@ public class MainActivity extends AppCompatActivity {
 That's it now save the both files and run the app!
 
 > **Note** :make sure to check the package name in java file `package com.example.emailsender;` if you got another name other than `emailsender` make sure to replace the first line of the code with yours.
+
+---

@@ -421,16 +421,14 @@ public class MainActivity extends AppCompatActivity {
 
 - Inorder to use `SQLiteDatabase` in your Android Project you must add the below `dependency` in `build.gradle.kts (:app)` and press **Sync now**.
 
-
-dependencies {
 ```gradle
+dependencies {
     implementation ("androidx.sqlite:sqlite:2.4.0")
-```
     // Remaining
     // dependencies
     // Don't change these...
 }
-
+```
 
 That's it now save the above files and run the app!
 

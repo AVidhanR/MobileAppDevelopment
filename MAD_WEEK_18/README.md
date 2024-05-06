@@ -1,7 +1,6 @@
 # Database implementation in Android
 
-> Extend the application developed in Experiment #10 so as to store the details in a database when the user click on ‘Store’ button and on clicking on ‘Retrieve’ button fetch and display
-all the details
+> Extend the application developed in Experiment #10 so as to store the details in a database when the user click on ‘Store’ button and on clicking on ‘Retrieve’ button fetch and display all the details
 
 - Create a new project in **Android Studio** named **Registration Foem with dB** (name should me absolute because in `MainActivity.java` the imported package name is **registrationformwithdb**)
 - Add the below `XML` code in `activity_main.xml` of your project.
@@ -433,3 +432,13 @@ dependencies {
 That's it now save the above files and run the app!
 
 > **Note** :make sure to check the package name in java file `package com.example.registrationformwithdb;` if you got another name other than `registrationformwithdb` make sure to replace the first line of the code with yours.
+
+### Output Image
+
+<div style=" text-align: center;">
+    <img 
+        src="./REGISTRATION WITH DB.png" 
+        alt="REGISTRATION WITH DB" 
+        style="width: 75%; border-radius: 10px;" 
+    />
+</div>

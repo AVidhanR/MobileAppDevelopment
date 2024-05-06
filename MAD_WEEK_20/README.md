@@ -180,6 +180,12 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+- Add the below lines in `AndroidManifest.xml`
+```xml
+<uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+```
 
 That's it now save the both files and run the app!
 

@@ -442,3 +442,5 @@ That's it now save the above files and run the app!
         style="width: 75%; border-radius: 10px;" 
     />
 </div>
+
+<!-- ![REGISTRATION WITH DB](https://github.com/AVidhanR/MobileAppDevelopment/assets/116101537/924cb41a-8b1b-455b-847f-f7b84cf8011d) -->

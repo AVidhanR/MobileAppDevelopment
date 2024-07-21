@@ -6,4 +6,4 @@
 
 > [!NOTE]
 > - Create these projects under `Empty Views Activity`
-- The code for every week is given in individual folder with naming convention `MAD_WEEK_0`
+> - The code for every week is given in individual folder with naming convention `MAD_WEEK_0`

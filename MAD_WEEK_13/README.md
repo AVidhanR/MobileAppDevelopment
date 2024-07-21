@@ -139,4 +139,5 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the above files and run the app!
 
-> **Note** :make sure to check the package name in java file `package com.example.colorsmenu;` if you got another name other than `colorsmenu` make sure to replace the first line of the code with yours.
+> [!NOTE] 
+> Make sure to check the package name in java file `package com.example.colorsmenu;` if you got another name other than `colorsmenu` make sure to replace the first line of the code with yours.

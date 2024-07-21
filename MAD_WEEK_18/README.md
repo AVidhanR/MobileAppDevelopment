@@ -418,7 +418,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-- Inorder to use `SQLiteDatabase` in your Android Project you must add the below `dependency` in `build.gradle.kts (:app)` and press **Sync now**.
+> [!IMPORTANT]
+> Inorder to use `SQLiteDatabase` in your Android Project you must add the below `dependency` in `build.gradle.kts (:app)` and press **Sync now**.
 
 ```gradle
 dependencies {
@@ -431,7 +432,8 @@ dependencies {
 
 That's it now save the above files and run the app!
 
-> **Note** :make sure to check the package name in java file `package com.example.registrationformwithdb;` if you got another name other than `registrationformwithdb` make sure to replace the first line of the code with yours.
+> [!NOTE]
+> Make sure to check the package name in java file `package com.example.registrationformwithdb;` if you got another name other than `registrationformwithdb` make sure to replace the first line of the code with yours.
 
 ### Output Image
 

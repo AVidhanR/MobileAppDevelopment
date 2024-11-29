@@ -197,6 +197,7 @@
 ```
 
 - Now add the below `Java` code in `DatabaseHelper.java` (by creating a new Java file {`DatabaseHelper.java`} at the same location where `MainActivity.java` is present) of your project.
+- Here, we are using `SQLite` database to store the user data.
 
 ```java
 package com.example.registrationformwithdb;

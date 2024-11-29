@@ -180,8 +180,10 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
 > [!IMPORTANT]
 > Add the below lines in `AndroidManifest.xml`
+
 ```xml
 <uses-permission
         android:name="android.permission.ACCESS_FINE_LOCATION"

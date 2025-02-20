@@ -212,5 +212,5 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the both files and run the app!
 
-> [NOTE]
+> [!NOTE]
 > Make sure to check the package name in the java file `package com.example.meetingschedule;` if you got another name other than `meetingschedule` make sure to replace the first line of the code with yours.

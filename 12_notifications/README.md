@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
     // By AVidhanR
 }
 ```
-- add the below code in `AndroidManifest.xml` (don't remove the entire code just add the below lines in the file that's it)
+- Add the below code in `AndroidManifest.xml` (don't remove the entire code just add the below lines in the file that's it)
 
 ```xml
 <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -175,4 +175,5 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the both files and run the app!
 
-> **Note**: make sure to check the package name in java file `package com.example.notificationconcept;` if you got another name other than `notificationconcept` make sure to replace the first line of the code with yours.
+> [!NOTE] 
+> Make sure to check the package name in the java file `package com.example.notificationconcept;` if you got another name other than `notificationconcept` make sure to replace the first line of the code with yours.

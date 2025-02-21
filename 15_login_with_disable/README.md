@@ -1,4 +1,4 @@
-# Login With Disable
+## Login With Disable
 
 > Create login application where you will have to validate username and password till the username and password is not validated, login button should remain disabled.
 
@@ -186,7 +186,8 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the both files and run the app!
 
-> **Note**: make sure to check the package name in java file `package com.example.loginwithdisable;` if you got another name other than `loginwithdisable` make sure to replace the first line of the code with yours.
+> [!NOTE]
+> Make sure to check the package name in the java file `package com.example.loginwithdisable;` if you got another name other than `loginwithdisable` make sure to replace the first line of the code with yours.
 
 <!-- ![LOGIN MODULE WITH DISABLE](https://github.com/AVidhanR/MobileAppDevelopment/assets/116101537/029e1db7-a8e4-4fef-ae22-b20b2226eca6) -->
 

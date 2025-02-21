@@ -1,4 +1,4 @@
-# Login Module
+## Login Module
 
 > Create sample application with login module. Validate username and password, on successful login, Change TextView "Login Successful". And on login fail, alert user using Toast "Login fail".
 
@@ -175,4 +175,5 @@ public class MainActivity extends AppCompatActivity {
 
 That's it now save the both files and run the app!
 
-> **Note** :make sure to check the package name in java file `package com.example.loginmodule;` if you got another name other than `loginmodule` make sure to replace the first line of the code with yours.
+> [!NOTE]
+> Make sure to check the package name in the java file `package com.example.loginmodule;` if you got another name other than `loginmodule` make sure to replace the first line of the code with yours.

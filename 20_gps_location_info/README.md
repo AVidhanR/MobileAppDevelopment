@@ -1,4 +1,4 @@
-# Get GPS Location Information
+## Get GPS Location Information
 
 > Develop a native application that uses GPS location information.
 
@@ -193,6 +193,4 @@ public class MainActivity extends AppCompatActivity {
 That's it now save the both files and run the app!
 
 > [!NOTE]
-> Make sure to check the package name in java file `package com.example.gpslocation;` if you got another name other than `gpslocation` make sure to replace the first line of the code with yours.
-
----
+> Make sure to check the package name in the java file `package com.example.gpslocation;` if you got another name other than `gpslocation` make sure to replace the first line of the code with yours.

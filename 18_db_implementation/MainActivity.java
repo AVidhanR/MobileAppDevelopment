@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             String userState = spin.getSelectedItem().toString();
             String userGender = male.isChecked() ? "Male" : "Female";
 
-            Boolean checkInsertData = DB.insertUserDate(
+            Boolean checkInsertData = DB.insertUserData(
                     username,
                     userAddress,
                     userGender,

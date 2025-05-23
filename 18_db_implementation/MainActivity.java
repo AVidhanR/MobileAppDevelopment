@@ -62,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_spinner_item,
-                arrayList);
+                arrayList
+        );
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(arrayAdapter);
 
@@ -82,18 +83,21 @@ public class MainActivity extends AppCompatActivity {
                     userGender,
                     userAge,
                     userDate,
-                    userState);
+                    userState
+            );
 
             if (checkInsertData) {
                 Toast.makeText(
                         MainActivity.this,
                         "New Entry confirmed",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT
+                ).show();
             } else {
                 Toast.makeText(
                         MainActivity.this,
                         "New Entry not inserted",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT
+                ).show();
             }
         });
 
@@ -103,7 +107,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(
                         MainActivity.this,
                         "No Entry found",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT
+                ).show();
             }
             StringBuffer buffer = new StringBuffer();
             while (cursor.moveToNext()) {
@@ -118,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
             builder.setMessage(buffer.toString());
             builder.show();
             builder.setCancelable(true);
-
         });
 
         // Set OnClickListener for the button to show DatePicker
